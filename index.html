@@ -41,7 +41,7 @@
         color: var(--hero-fg);
       }
 
-      /* RWR 4013 tag */
+      /* Course code tag */
       .hero-course-tag{
         display: inline-block;
         padding: 0.25rem 0.6rem;
@@ -316,19 +316,19 @@
     <header class="hero-banner text-center py-5">
       <div class="container">
 
-        <!-- RWR 4013 tag -->
+        <!-- Course code tag -->
         <div class="mb-1">
           <span
             class="hero-course-tag"
             id="courseTag"
             style="display:none;">
-            RWR 4013
+            SMRTTECH 4SC3
           </span>
         </div>
 
         <!-- Course Project pill -->
         <div class="hero-tagline" id="studioTagline">
-          Course Project: Digital Twins for Smart Cities
+          Course Project: Smart Cities and Communities
         </div>
 
         <img
@@ -378,8 +378,9 @@
           </div>
 
           <h1 class="section-title h2 mb-3" id="projectTitleText">
-            Digital Twin of an Urban Intersection Using Video-Based Demand
-            Estimation and SUMO Scenario Testing
+            Evaluating AV Integration and Intersection Efficiency at Sheppard
+            Ave W &amp; Yonge St: A SUMO-Based Traffic Simulation and Demand
+            Analysis
           </h1>
 
           <div class="intro-video-wrap">
@@ -407,8 +408,8 @@
           </div>
 
           <p class="mt-3 mb-0 text-muted small" id="introCaption">
-            Autoplay preview (≈20 seconds): raw video → detections/tracks →
-            SUMO baseline → signal timing scenarios → KPI comparison dashboard.
+            Autoplay preview (≈20 seconds): Base Scenario: 100% HDV →
+            Scenario 1: 100% AV/CAV.
           </p>
         </div>
       </section>
@@ -523,7 +524,7 @@
               <div class="card card-soft h-100">
                 <div class="card-body">
                   <h3 class="h6 fw-bold mb-3" id="chartLeftTitle">
-                    Average Delay per Approach
+                    Base Scenario (100% HDV)
                   </h3>
 
                   <img
@@ -539,7 +540,7 @@
               <div class="card card-soft h-100">
                 <div class="card-body">
                   <h3 class="h6 fw-bold mb-3" id="chartRightTitle">
-                    Average Delay (Overall)
+                    Scenario 1 (100% AV/CAV)
                   </h3>
 
                   <img
@@ -843,7 +844,7 @@
 
       // Hero
       if (C.hero) {
-        // course tag (RWR 4013)
+        // course tag
         const ct = el("courseTag");
         const tagText = (C.hero.courseTag || "").trim();
 
@@ -859,7 +860,7 @@
         setText(
           "studioTagline",
           C.hero.tagline ||
-          "Course Project: Digital Twins for Smart Cities"
+          "Course Project: Smart Cities and Communities"
         );
 
         setText(
@@ -1161,12 +1162,12 @@
 
           setText(
             "chartLeftTitle",
-            L.title || "Average Delay per Approach"
+            L.title || "Base Scenario (100% HDV)"
           );
 
           setText(
             "chartRightTitle",
-            R.title || "Average Delay (Overall)"
+            R.title || "Scenario 1 (100% AV/CAV)"
           );
 
           const li = el("chartLeftImg");
