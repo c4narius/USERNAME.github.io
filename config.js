@@ -206,6 +206,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/FirstNameLastName/FirstNameLastName.github.io"
+    repoUrl: "https://github.com/c4narius/USERNAME.github.io"
   }
 };
