@@ -71,25 +71,25 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"The role of a digital roadway and traffic model in examining an urban intersection is through its ability to create a virtual replica of an urban city center while being able to simulate the effects of traffic.",
+			"Traffic simulation platforms such as SUMO allow engineers to model individual vehicle dynamics while evaluating alternative strategies to control traffic.",
+			"Modifying traffic composition to a 100% CAV fleet alters small, but accumulative, human-based driving behaviors such as reaction times, lane change frequency, minimum gaps, and acceleration dynamics, which can fundamentally shift the speed-density relationship on a given roadway.",
+			"The significance of simulating autonomous vehicle implementation in comparison to a human baseline is to be able to observe any improvements, deteriorations, or stagnation in traffic conditions relative to a baseline that represents the current real-world conditions."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"The municipal transportation authority's facing peak-period congestion must evaluate engineering solutions prior to any financial investments can be made.",
+			"Human driving behavior introduces unpredictable variance in traffic streams.",
+			"This includes delays in human perception, inconsistent acceleration and breaking, and large vehicle gaps leading to traffic instability.",
+			"The issues posed by 'phantom congestion', a phenomenon that significantly impacts traffic efficiency and safety."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
+			"Develop a digital road network and traffic model for the selected intersection and characterize the 100% HDV baseline (Scenario A) speed-density relationship on the selected major-road.",
+			"Compare and evaluate the selected major-road edge speed density relationship under 100% HDV base scenario (Scenario A) versus 100% CAV conditions (Scenario B).",
+			"Select, justify, implement, and evaluate Intervention X (Scenario C with altered TLS phases and green signal timings) by comparing speed density observations on the same selected major-road edge before and after the TLS modification.",
 			"Present results in different styles through KPIs, figures, and a showcase website."
     ]
   },
