@@ -69,26 +69,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-      "A digital roadway and traffic model creates a virtual replica of the Sheppard Avenue West & Yonge Street intersection in Toronto, allowing the effects of traffic to be simulated.",
-      "Traffic simulation platforms such as SUMO allow engineers to model individual vehicle dynamics while evaluating alternative strategies to control traffic, from signal timing plans to HDV and CAV deployment.",
-      "Modifying traffic composition to a 100% CAV fleet alters small, but accumulative, human-based driving behaviors such as reaction times, lane change frequency, minimum gaps, and acceleration dynamics, which can fundamentally shift the speed-density relationship on a given roadway.",
-      "The significance of simulating autonomous vehicle implementation in comparison to a human baseline is to observe any improvements, deteriorations, or stagnation in traffic conditions, providing quantifiable evidence before municipal capital investments are made."
+      "A digital roadway and traffic model creates a virtual replica of the Sheppard Ave W & Yonge St intersection in Toronto, allowing traffic effects to be simulated.",
+      "Platforms such as SUMO let engineers model individual vehicle dynamics and evaluate control strategies, from signal timing plans to HDV and CAV deployment.",
+      "Shifting to a 100% CAV fleet alters human-based driving behaviors — reaction times, lane changes, minimum gaps, and acceleration — fundamentally reshaping the roadway's speed-density relationship.",
+      "Simulating autonomous vehicles against a human baseline reveals any improvements, deteriorations, or stagnation in traffic conditions relative to real-world conditions."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-      "The municipal transportation authority facing peak-period congestion must evaluate engineering solutions prior to any financial investments can be made.",
-      "Human driving behavior introduces unpredictable variance in traffic streams, including perception delays, inconsistent acceleration and braking, and large vehicle gaps.",
-      "These behaviors drive 'phantom congestion', a phenomenon that significantly impacts traffic efficiency, safety, and sustainability.",
-      "Quantitative before-and-after evidence is required before signal retiming interventions or full CAV fleet deployment can be considered."
+      "The municipal transportation authority facing peak-period congestion must evaluate engineering solutions prior to any financial investments.",
+      "Human driving behavior introduces unpredictable variance in traffic streams.",
+      "This drives 'phantom congestion', a phenomenon that significantly impacts traffic efficiency, safety, and sustainability.",
+      "Quantitative before-and-after evidence is required before signal retiming or full CAV fleet deployment can be considered."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-      "Select the study area: the signalized Sheppard Avenue West & Yonge Street intersection in Toronto, Ontario, and develop its digital road network and traffic model in SUMO.",
+      "Select the study area — the signalized Sheppard Ave W & Yonge St intersection in Toronto — and develop its digital road network and traffic model in SUMO.",
       "Characterize the 100% HDV baseline (Scenario A) speed-density relationship on the selected major-road edge (E145).",
-      "Compare and evaluate the selected major-road edge speed-density relationship under 100% HDV conditions (Scenario A) versus 100% CAV conditions (Scenario B).",
-      "Select, justify, implement, and evaluate Intervention X (Scenario C with altered TLS phases and green signal timings) by comparing speed-density observations on the same selected major-road edge before and after the TLS modification."
+      "Compare edge speed-density under 100% HDV (Scenario A) versus 100% CAV conditions (Scenario B).",
+      "Implement and evaluate Intervention X (Scenario C, altered TLS phases and green timings) via before-and-after speed-density comparison on the same edge."
     ]
   },
 
@@ -206,6 +206,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/c4narius/USERNAME.github.io"
+    repoUrl: "https://github.com/FirstNameLastName/FirstNameLastName.github.io"
   }
 };
