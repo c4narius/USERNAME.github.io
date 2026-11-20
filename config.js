@@ -69,26 +69,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-      "A digital roadway and traffic model creates a virtual replica of the Sheppard Ave W & Yonge St intersection in Toronto, allowing traffic effects to be simulated.",
-      "Platforms such as SUMO let engineers model individual vehicle dynamics and evaluate control strategies, from signal timing plans to HDV and CAV deployment.",
-      "Shifting to a 100% CAV fleet alters human-based driving behaviors — reaction times, lane changes, minimum gaps, and acceleration — fundamentally reshaping the roadway's speed-density relationship.",
-      "Simulating autonomous vehicles against a human baseline reveals any improvements, deteriorations, or stagnation in traffic conditions relative to real-world conditions."
+      "A digital roadway and traffic model virtually replicates the Sheppard Ave W & Yonge St intersection to simulate traffic effects.",
+      "SUMO lets engineers model individual vehicle dynamics and test control strategies, from signal timing to HDV and CAV deployment.",
+      "A 100% CAV fleet alters reaction times, lane changes, gaps, and acceleration, reshaping the roadway's speed-density relationship.",
+      "Simulating CAVs against an HDV baseline reveals improvements, deterioration, or stagnation relative to real-world conditions."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-      "The municipal transportation authority facing peak-period congestion must evaluate engineering solutions prior to any financial investments.",
+      "Facing peak-period congestion, the municipal authority must evaluate engineering solutions before any financial investment.",
       "Human driving behavior introduces unpredictable variance in traffic streams.",
-      "This drives 'phantom congestion', a phenomenon that significantly impacts traffic efficiency, safety, and sustainability.",
-      "Quantitative before-and-after evidence is required before signal retiming or full CAV fleet deployment can be considered."
+      "This causes 'phantom congestion', harming traffic efficiency, safety, and sustainability.",
+      "Quantitative before-and-after evidence is needed before signal retiming or full CAV deployment."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-      "Select the study area — the signalized Sheppard Ave W & Yonge St intersection in Toronto — and develop its digital road network and traffic model in SUMO.",
-      "Characterize the 100% HDV baseline (Scenario A) speed-density relationship on the selected major-road edge (E145).",
+      "Select and digitally model the Sheppard Ave W & Yonge St intersection in SUMO.",
+      "Characterize the 100% HDV baseline (Scenario A) speed-density relationship on edge E145.",
       "Compare edge speed-density under 100% HDV (Scenario A) versus 100% CAV conditions (Scenario B).",
-      "Implement and evaluate Intervention X (Scenario C, altered TLS phases and green timings) via before-and-after speed-density comparison on the same edge."
+      "Evaluate Intervention X (Scenario C, altered TLS timing) via before-and-after comparison on the same edge."
     ]
   },
 
@@ -206,6 +206,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/c4narius/USERNAME.github.io"
+    repoUrl: "https://github.com/FirstNameLastName/FirstNameLastName.github.io"
   }
 };
